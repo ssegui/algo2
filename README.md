@@ -8,20 +8,20 @@
 
 ## Classes
 + Setmana del 28/9: 
-  + Contingut en línia (Santi): [Introducció](https://ssegui.github.io/algorismica2/classes/introduccio.html)   
+  + Contingut en línia (Santi): [Introducció](https://ssegui.github.io/algo2/classes/introduccio.html)   
   + Pràctica: Prac 0: Introducció al grafs 
 + 5/10:
   + Contingut en línia (Santi): [Grafs I](https://ssegui.github.io/algorismica2/classes/grafs1.html): Representació, DFS, BFS, Components Connexes
   + Pràctica: Prac 0: Introducció al grafs 
-  + Classe presencial: Problemes amb gràfs: Random Walks; BFS; DFS; Compoenents Connexes
+  + Classe presencial: Problemes amb gràfs: Random Walks; BFS; DFS; Compoenents Connexes [NotebookProb1](https://github.com/ssegui/algo2/blob/main/notebooks/grafs/Grafos_1.ipynb)
 + 12/10:  
   + Pràctica:  Prac 1: Grafs
 + 19/10: 
-  + Contingut en línia (Santi): [Grafs II](https://ssegui.github.io/algorismica2/classes/grafs2.html): Dijkstra, Bellman Ford,  Ordre topològic
+  + Contingut en línia (Santi): [Grafs II](https://ssegui.github.io/algo2/classes/grafs2.html): Dijkstra, Bellman Ford,  Ordre topològic
   + Pràctica:  Prac 1: Grafs
   + Classe presencial: Problemes amb grafs: Dijkstra; Cicles
 + 26/10: 
-  + Contingut en línia (Santi): [Grafs III](https://ssegui.github.io/algorismica2/classes/grafs3.html): Ford Fulkensen, Min-Cut Max-Flow
+  + Contingut en línia (Santi): [Grafs III](https://ssegui.github.io/algo2/classes/grafs3.html): Ford Fulkensen, Min-Cut Max-Flow
   + Pràctica:  Prac 1: Grafs
   + Classe presencial: Problemes amb grafs: Cicles; Circuit Eurelirà
 + 2/11: 

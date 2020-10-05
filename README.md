@@ -6,6 +6,11 @@
 
 > **AVÍS**: Degut a l'estat d'emergència sanitaria creat per la COVID-19, aquesta assignatura es farà durant el curs 2020-2021 en modalitat d'aprenentatge combinat (blended learning), fent servir sessions presencials i aprenentatge en línia asíncron.
 
+## Professors:
+* Javi Selva
+* Hugo Bertiche
+* Santi Seguí 
+
 ## Classes
 + Setmana del 28/9: 
   + Contingut en línia (Santi): [Introducció](https://ssegui.github.io/algo2/classes/introduccio.html)   

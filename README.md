@@ -16,7 +16,7 @@
   + Contingut en línia (Santi): [Introducció](https://ssegui.github.io/algo2/classes/introduccio.html)   
   + Pràctica: Prac 0: Introducció al grafs 
 + 5/10:
-  + Contingut en línia (Santi): [Grafs I](https://ssegui.github.io/algorismica2/classes/grafs1.html): Representació, DFS, BFS, Components Connexes
+  + Contingut en línia (Santi): [Grafs I](https://ssegui.github.io/algo2/classes/grafs1.html): Representació, DFS, BFS, Components Connexes
   + Pràctica: Prac 0: Introducció al grafs 
   + Classe presencial: Problemes amb gràfs: Random Walks; BFS; DFS; Compoenents Connexes [NotebookProb1](https://github.com/ssegui/algo2/blob/main/notebooks/grafs/Grafos_1.ipynb)
 + 12/10:  

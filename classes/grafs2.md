@@ -1,4 +1,4 @@
-# Sessió en línia del dia 19/10/2020: Grafs II
+# Sessió en línia del dia 8 - 19/10/2020: Grafs II
 
 Aquesta sessió té una durada aproximada de 60 minuts i està formada per alguns vídeos sobre els aspectes teòrics del tema i diversos exercicis. 
 Es recomana seguir aquests continguts en el mateix ordre que apareixen en aquesta pàgina.

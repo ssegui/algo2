@@ -70,7 +70,7 @@ Vídeo de 9' sobre els camins eulerians.
 <br>
 Vídeo de 15' sobre els algoritmes per trobar camins i circuits eulerians.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8MpoO2zA2l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/8MpoO2zA2l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 ---
 

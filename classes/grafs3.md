@@ -4,8 +4,10 @@ Aquesta sessió té una durada aproximada de 60 minuts i està formada per algun
 Es recomana seguir aquests continguts en el mateix ordre que apareixen en aquesta pàgina.
 
 
-## El flux màxim (Max Flow)
 ---
+
+## El flux màxim (Max Flow)
+
 En optimització i teoria de grafs, el problema de flux màxim serveix per trobar la quantitat màxima de flux que pot passar per una xarxa de flux, des d'una sola font (s) fins a un sol pou (t). El problema per tant es defineix com un graf dirigit on tenim un node inicial (s) i un node objectiu (t) amb l'objectiu de passar el màxim flux possible.
 
 <center>

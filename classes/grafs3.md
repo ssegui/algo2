@@ -8,10 +8,12 @@ Es recomana seguir aquests continguts en el mateix ordre que apareixen en aquest
 ---
 En optimització i teoria de grafs, el problema de flux màxim serveix per trobar la quantitat màxima de flux que pot passar per una xarxa de flux, des d'una sola font (s) fins a un sol pou (t). El problema per tant es defineix com un graf dirigit on tenim un node inicial (s) i un node objectiu (t) amb l'objectiu de passar el màxim flux possible.
 
-<figure>
+<center>
+   <figure>
    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/MFP1.jpg" alt="drawing" width="200"/>
  <figcaption>Una xarxa de flux, amb font s i un pou t. Els números al costat de les arestes són les capacitats. El flux màxim de l'exemple és 15.</figcaption>
 </figure>
+</center>
 <br>
 
 Els principals algoritmes per resoldre aquest problema són l'algorisme de Ford-Fulkerson i l'algorisme de Dinic. En el següent vídeo podem veure el funcionament de l'algoritme de Ford-Fulkersen.
@@ -78,9 +80,11 @@ Vídeo de 15' sobre els algoritmes per trobar camins i circuits eulerians.
 
 
 Donada la següent planta d'un pis:
-<figure>
+<center>
+   <figure>
    <img src="./images/house.png" alt="house_map" width="600"/>
 </figure>
+</center>
 
 1. Volem fer un recorregut per on es passi per totes les portes exactament una vegada. Existeix aquest recorregut? si és així, a quines habitacions ha de començar i finalitzar el recorregut? Quin és el recorregut?
 

@@ -79,7 +79,7 @@ Vídeo de 15' sobre els algoritmes per trobar camins i circuits eulerians.
 
 Donada la següent planta d'un pis:
 <figure>
-   <img src="../images/house.png" alt="drawing" width="600"/>
+   <img src="./images/house.png" alt="house_map" width="600"/>
 </figure>
 
 1. Volem fer un recorregut per on es passi per totes les portes exactament una vegada. Existeix aquest recorregut? si és així, a quines habitacions ha de començar i finalitzar el recorregut? Quin és el recorregut?

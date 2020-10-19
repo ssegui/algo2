@@ -46,6 +46,7 @@ A continuació es detallen els passos per imprimir totes les arestes del tall m�
 1. Executeu l'algorisme Ford-Fulkerson i tingueu en compte el graf residual final.
 2. Cerqueu el conjunt de vèrtexs accessibles des del graf residual final.
 3. Totes les arestes que van des d’un vèrtex accessible fins a un vèrtex no accessible són les arestes del tall mínim. Imprimiu totes aquestes arestes.
+
 ---
 
 ### Exercicis: Max-Flow Ford Fulkersen

@@ -2,6 +2,10 @@
 
 Greedy és un paradigma algorítmic que crea una solució pas per pas, escollint en cada pas l'acció que ofereixi el benefici més evident i immediat. Per tant, aquells problemes que millor s'adapten al paradigma greedy són aquell que escollir l'òptim localment condueixen a una solució global.
 
+
+
+---
+
 ### Exercicis: Problema del canvi de monedes
 
 El problema de canvi de monedes aborda la forma de trobar el nombre mínim de monedes tals que entre elles sumen una certa quantitat. 
@@ -10,6 +14,8 @@ El problema de canvi de monedes aborda la forma de trobar el nombre mínim de mo
 
 * Ens trobem en un país estranger on les monedes disponibles són d'1, 3 i 4 unitats. Proveu el vostre algoritme. Podem assegurar que la solució és òptima? justifica la resposta.
 
+
+---
 
 ### Exercici: Problema del repostatge de vehicles. 
 Hem de fer un trajecte des d'un punt d'origen S i un destí D. El dipòsit del cotxe permet recórrer un màxim de K quilòmetres. Es demana trobar el nombre mínim de parades per a fer provisió de carburant durant el trajecte.
@@ -26,10 +32,12 @@ Sortida:
 
 
 ---
+
 ### És dijkstra un algoritme Greddy?
 Justifica la resposta
 
 ---
+
 ### Exercici: Solució Greedy pel problema de la motxilla.
 
 El problema de la motxilla consisteix d'un problema d'optimització combinatòria. Modelitza una situació anàloga al fet d'omplir una motxilla, en la que no es pot posar més d'un cert pes, amb tot o una part d'un conjunt d'objectes. Aquests objectes tenen un pes i un valor determinat. Els objectes que es posen dins la motxilla han de maximitzar el valor total sense sobrepassar el pes màxim.
@@ -46,7 +54,7 @@ Penseu una soluió on greedy per aquest problema. En cada iteració s'ha d'escol
 ---
 
 ## Minimum Spanning Tree
----
+
 
 ---
 ### Vídeo: Union Find 

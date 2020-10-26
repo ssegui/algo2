@@ -32,11 +32,11 @@
 + 2/11: 
   + Contingut en línia (Santi): [Greedy I]   
   + Pràctica: Prac 2: Greedy
-  + Classe presencial: Problemes Greedy: Selecció de tasques; Money Change; Viatjant de comerç
+  + Classe presencial: Problemes Greedy: Selecció de tasques; Money Change; Knapsack
 + 9/11: 
   + Contingut en línia (Santi): [Greedy II]   
   + Pràctica: Prac 2: Greedy
-  + Classe presencial: Problemes Greedy: Greatest number; Knapsack; Minimise sum of product
+  + Classe presencial: Problemes Greedy: Greatest number; Minimise sum of product; Viatjant de comerç
 + 16/11: 
   + Contingut en línia (Santi): [Programació Dinàmica I]   
   + Pràctica: Prac 3: Programació Dinàmica

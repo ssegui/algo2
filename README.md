@@ -30,7 +30,7 @@
   + Pràctica:  Prac 1: Grafs
   + Classe presencial: Problemes amb grafs: Cicles; Circuit Eurelirà
 + 2/11: 
-  + Contingut en línia (Santi): [Greedy I]   
+  + Contingut en línia (Santi): [Greedy I] (https://ssegui.github.io/algo2/classes/greedy1.html)
   + Pràctica: Prac 2: Greedy
   + Classe presencial: Problemes Greedy: Selecció de tasques; Money Change; Knapsack
 + 9/11: 

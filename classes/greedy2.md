@@ -24,12 +24,12 @@ Donat el següent graf, escolliu el mètode més òptim (Kruskal o Prim) per tro
 
 --- 
 ### Exercici: Prim vs. Kruskal
-Responeu quin algoritme correspone a cada afirmació:
+Quin algoritme corresponen a cada afirmació?
 
 |                                                                                                                      | Prim or Kruskal? |
 |----------------------------------------------------------------------------------------------------------------------|------------------|
 | L’arbre que estem creant sempre roman connectat.                                                    |                  |
-| L'arbre que estem  create pot usualment estar desconectat                                                            |                  |
+| L'arbre que estem  creant pot usualment estar desconnectat                                                            |                  |
 | L’algorisme fa créixer una solució a partir d’un vèrtex aleatori afegint el següent vèrtex més barat a l’arbre existent.         |                  |
 | És més ràpid per a grafs sparse                                                                                         |                  |
 | És més ràpid per a grafs densos                                                                                        |                  |
@@ -37,9 +37,9 @@ Responeu quin algoritme correspone a cada afirmació:
 ---
 ### Graph coloring
 
-La coloració de gràfics és àmpliament utilitzada. Malauradament, no hi ha cap algorisme eficient per pintar un gràfic amb un nombre mínim de colors, ens trobem en front d'un conegut problema NP Complete. Hi ha algorismes aproximats per resoldre el problema. A continuació es mostra l’algorisme bàsic Greedy per assignar colors. No garanteix l'ús de colors mínims, però garanteix un límit superior en el nombre de colors. L’algorisme bàsic mai utilitza més de d + 1 colors on d és el grau màxim d’un vèrtex en el gràfic donat.
+La coloració de gràfics és àmpliament utilitzada. Malauradament, no hi ha cap algorisme eficient per pintar un gràfic amb un nombre mínim de colors, ens trobem enfront d'un conegut problema NP Complete. Hi ha algorismes aproximats per resoldre el problema. A continuació es mostra l’algorisme bàsic Greedy per assignar colors. No garanteix l'ús de colors mínims, però garanteix un límit superior en el nombre de colors. L’algorisme bàsic mai utilitza més de d + 1 colors on d és el grau màxim d’un vèrtex en el gràfic donat.
 
-Algoritme bàsic de coloració cobdicial:
+Algoritme bàsic de coloració greedy:
 
 1. Pintem el primer vèrtex amb el primer color.
 2. Per a la resta de vèrtexs V-1.
@@ -53,4 +53,4 @@ El codi Huffman és un algorisme de compressió de dades que utilitza la tècnic
 
 https://www.codesdope.com/course/algorithms-huffman-codes
 
-Implementeu la vostra versió de l'algorítme. 
+Implementeu la vostra versió de l'algoritme. 

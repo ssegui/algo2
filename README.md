@@ -34,7 +34,7 @@
   + Pràctica: Prac 2: Greedy
   + Classe presencial: Problemes Greedy: Selecció de tasques; Money Change; Knapsack
 + 9/11: 
-  + Contingut en línia (Santi): [Greedy II]   
+  + Contingut en línia (Santi): [Greedy II](https://ssegui.github.io/algo2/classes/greedy2.html)
   + Pràctica: Prac 2: Greedy
   + Classe presencial: Problemes Greedy: Greatest number; Minimise sum of product; Viatjant de comerç
 + 16/11: 

@@ -21,7 +21,7 @@ En general, es poden resoldre problemes amb subestructures òptimes seguint aque
 2. Resoldre aquests problemes de manera òptima fent servir aquest procés de tres passos recursivament.
 3. Emprar aquestes solucions òptimes per a construir una solució òptima al problema original.
 
-Els subproblemes es resolen al seu torn dividint-los en subproblemes més petits fins que s'assoleixi el cas base, on la solució al problema és trivial.
+Els subproblemes es resolen al seu torn dividint-los en subproblemes més petits fins que s'assoleixi el cas fàcil (anomenat cas base), on la solució al problema és trivial.
 
 
 La programació dinàmica no hauria de ser un concepte nou per a vosaltres, de fet ja heu utilitzat aquest concepte a diversos problemes. Per trobar la solució de la successió de Fibonacci o bé per trobar el distancia d'edició d'una paraula P a una altra paraula Q (algoritmes de Levenshtein).

@@ -3,7 +3,7 @@
 La programació dinàmica, inventada pel matemàtic Richard Bellman el 1953, és un mètode per a reduir el temps d'execució d'un algorisme mitjançant la utilització de **subproblemes superposats** i **subestructures òptimes**. El concepte de Subestructura òptima vol dir que es poden fer servir solucions òptimes de subproblemes per a trobar la solució òptima del problema en el seu conjunt. 
 
 
-Podem dir que l'objectiu bàsic de la programació dinàmica consisteix en "descompondre" un problema d'optimització en ``k`` variables a una seria de problemes amb un menor número de variables i per tant més fàcils de resoldre. Què vol dir això: Si posem com a exemple el problema de la motxilla el que farem és reudir el problema inicial de ``n`` variables a ``n`` problemes amb 1 variable. En aquest sentit, podem dir que la programació dinàmica es basa en un mètode de descomposició.
+Podem dir que l'objectiu bàsic de la programació dinàmica consisteix en "descompondre" un problema d'optimització en ``k`` variables a una seria de problemes amb un menor número de variables i per tant més fàcils de resoldre. Què vol dir això: Si posem com a exemple el problema de la motxilla el que farem és reduir el problema inicial de ``n`` variables a ``n`` problemes amb 1 variable. En aquest sentit, podem dir que la programació dinàmica es basa en un mètode de descomposició.
 
 A la pregunta: Es pot resoldre qualsevol problema mitjançant la programació dinàmica? La resposta és NO. Per poder resoldre un problema mitjançant programació dinàmica, aquest ha de complir una sèrie de condicions que anirem veient.
 

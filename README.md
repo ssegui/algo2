@@ -38,25 +38,25 @@
   + Pràctica: Prac 2: Greedy
   + Classe presencial: Problemes Greedy: Greatest number; Minimise sum of product; Viatjant de comerç
 + 16/11: 
-  + Contingut en línia (Santi): [Programació Dinàmica I]   
+  + Contingut en línia (Santi):  
   + Pràctica: Prac 3: Programació Dinàmica
   + Classe presencial: **Examen curt **
 + 23/11: 
-  + Contingut en línia (Santi): [Programació Dinàmica II] 
+  + Contingut en línia (Santi): [Programació Dinàmica I] (https://ssegui.github.io/algo2/classes/dp1.html)
   + Pràctica: Prac 3: Programació Dinàmica
   + Classe presencial: Problemes Programació Dinàmica: Knapsack, Floyd Wharshall
 + 30/11: 
-  + Contingut en línia (Santi): [Enumeratius I]   
+  + Contingut en línia (Santi): [Programació Dinàmica II]  
   + Pràctica: Prac 3: Programació Dinàmica
   + Classe presencial: Problemes Programació Dinàmica: Levenstein, Hanoi
 + 7/12: 
  + Pràctica: Prac 4: Enumeratius
 + 14/12: 
-  + Contingut en línia (Santi): [Enumeratius II]   
+  + Contingut en línia (Santi): [Enumeratius I]   
   + Pràctica: Prac 4: Enumeratius
   + Classe presencial: Problemes Enumeratius: Cartas; Knapsack
 + 21/12: 
-  + Contingut en línia (Santi): [Complexitat]  
+  + Contingut en línia (Santi): [Enumeratius II] 
   + Pràctica: Prac 4: Enumeratius
   + Classe presencial: Problemes Enumeratius: Orden de ensamblaje
 

@@ -42,7 +42,7 @@
   + Pràctica: Prac 3: Programació Dinàmica
   + Classe presencial: **Examen curt **
 + 23/11: 
-  + Contingut en línia (Santi): [Programació Dinàmica I] (https://ssegui.github.io/algo2/classes/dp1.html)
+  + Contingut en línia (Santi): [Programació Dinàmica I](https://ssegui.github.io/algo2/classes/dp1.html)
   + Pràctica: Prac 3: Programació Dinàmica
   + Classe presencial: Problemes Programació Dinàmica: Knapsack, Floyd Wharshall
 + 30/11: 

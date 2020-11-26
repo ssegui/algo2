@@ -74,9 +74,9 @@ Podem definir la seqüència recurrent tenint en compte els següents punts:
 * - ```E(i,j-1) +1``` -> afegim una lletra
 * - ```E(i-1],j-1) + diff(i,j)``` -> substituïm o mantenim.
 
-<center><figure>
+<figure><center>
    <img src="./images/lev.png" alt="drawing" width="600"/>
-</figure></center>
+</center></figure>
 
 El cost d'edició de la paraula (POL) per (EXP) vindrà definit per:
 ```E(POL,EXP) = min{E(PO,EXP) +  1, E(POL, EX) + 1, E(PO,EX) + dif(L,X)}```

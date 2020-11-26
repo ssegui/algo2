@@ -73,16 +73,17 @@ Podem definir la seqüència recurrent tenint en compte els següents punts:
 * - ```E(i-1,j) +1``` -> eliminem una lletra
 * - ```E(i,j-1) +1``` -> afegim una lletra
 * - ```E(i-1],j-1) + diff(i,j)``` -> substituïm o mantenim.
-<figure>
+
+<center><figure>
    <img src="./images/lev.png" alt="drawing" width="600"/>
-</figure>
+</figure></center>
 
 El cost d'edició de la paraula (POL) per (EXP) vindrà definit per:
 ```E(POL,EXP) = min{E(PO,EXP) +  1, E(POL, EX) + 1, E(PO,EX) + dif(L,X)}```
 Si executem aquesta funció recursiva d'esquerra a dreta i de dalt a sota, podem emplenar aquesta taula i obtindrem el següent resultat:
-<figure>
+<center><figure>
    <img src="./images/lev1.png" alt="drawing" width="600"/>
-</figure>
+</figure></center>
 
 
 La solució naïf d'aquest problema podria ser la següent:
@@ -163,16 +164,18 @@ Associar la paraula ALGORISMICA amb la paraula AVANÇADA fent ús d’aquesta in
 EL problema del viatjant de començ consisteix amb trobar un recorregut de longitud mínima per a un viatger que hagi de visitar diverses ciutats i després tornar al punt d’inici, on la distància existent entre cada parella de ciutats és coneguda.
 
 És a dir, donat un graf dirigit amb arestes amb cost positiu, es vol trobar un **circuit de longitud mínima** que **comenci i acabi** en el **mateix node** passant exactament **un cop per a cada un dels nodes** restants.
-<figure>
+<center><figure>
    <img src="./images/tsp1.png" alt="drawing" width="600"/>
-</figure>
+</figure></center>
 
 Aquest problema consisteix amb trobar el **circuit Hamiltonià**.
 
 Trobar la solució mitjançant una cerca exhaustiva implica mirar totes les possibles permutacions dels nodes ordenats, el que implica una complexitat de complexitat **O(n!)**.
-<figure>
+<center>
+   <figure>
    <img src="./images/tsp2.png" alt="drawing" width="600"/>
 </figure>
+ </center>
 
 
 Tenim una solució mitjançant programació dinàmica que millora significament la complexitat en el temps, passem d’una complexitat ￼```O(n!)```  a ```O(n^2 2^n)```￼

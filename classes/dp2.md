@@ -8,17 +8,19 @@ Per exemple:
 * Donada la seqüència: 
     * 0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15
 
-Una subseqüència creixent màxima pot ser:
-0, 2, 6, 9, 11 , 15
+* Una subseqüència creixent màxima pot ser:
+   * 0, 2, 6, 9, 11 , 15
 
 Aquesta subseqüència té longitud 6, i la seqüència d'entrada donada no té cap subseqüència creixent de tamany 7. La subseqüència anterior no és l'única de longitud 6, sinó que tindre diverses com per exemple:
 
-0 ,4, 6, 9, 11, 15
+* 0 ,4, 6, 9, 11, 15
 
 La solució d'aquest problema amb programació dinàmica ve donat per la següent funció recurrent:
+
 ```L(i) = 1 + max(L_0,L_1,...,L_i-1)```
 
 amb el cas base:
+
 ```L(0) = 0```
 
 L'algoritme amb programació dinàmica per trobar aquesta solució pot ser el següent:

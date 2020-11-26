@@ -181,9 +181,11 @@ La idea principal consisteix en calcular la solució òptima per a tots els subc
 
 
 Abans de veure el vídeo intenteu pensar com podríeu solucionar el problema del viatjant de comerç mitjançat Programació Dinàmica.
+
 <center>
+   
   <iframe width="560" height="315" src="https://www.youtube.com/embed/cY4HiiFHO1o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <center>
+ </center>
 
 
 Si ```D(v_i, S)``` és la longitud del camí mínim sortint del vèrtex ```v_i``` i passant per cadascun dels vèrtexs del conjunt S i tornat al vèrtex ```v_i```. La funció de recurrència es pot definir com:

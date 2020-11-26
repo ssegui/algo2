@@ -46,7 +46,7 @@
   + Pràctica: Prac 3: Programació Dinàmica
   + Classe presencial: Problemes Programació Dinàmica: Knapsack, Floyd Wharshall
 + 30/11: 
-  + Contingut en línia (Santi): [Programació Dinàmica II]  
+  + Contingut en línia (Santi): [Programació Dinàmica II](https://ssegui.github.io/algo2/classes/dp2.html)
   + Pràctica: Prac 3: Programació Dinàmica
   + Classe presencial: Problemes Programació Dinàmica: Levenstein, Hanoi
 + 7/12: 

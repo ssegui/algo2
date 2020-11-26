@@ -187,6 +187,7 @@ Abans de veure el vídeo intenteu pensar com podríeu solucionar el problema del
 
 
 Si ```D(v_i, S)``` és la longitud del camí mínim sortint del vèrtex ```v_i``` i passant per cadascun dels vèrtexs del conjunt S i tornat al vèrtex ```v_i```. La funció de recurrència es pot definir com:
+
 * ```g(i, {}) = {L_ij} si S = {}```
 * ```g(i, S ) = Min_{j in S}  { L_ij  + g(j, S-{j})}```
 

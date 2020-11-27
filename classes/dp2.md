@@ -11,7 +11,7 @@ Per exemple:
 * Una subseqüència creixent màxima pot ser:
    * 0, 2, 6, 9, 11 , 15
 
-Aquesta subseqüència té longitud 6, i la seqüència d'entrada donada no té cap subseqüència creixent de tamany 7. La subseqüència anterior no és l'única de longitud 6, sinó que tindre diverses com per exemple:
+Aquesta subseqüència té longitud 6, i la seqüència d'entrada donada no té cap subseqüència creixent de tamany 7. La subseqüència anterior no és l'única de longitud 6, sinó que podem tindre diverses com per exemple:
 
 * 0 ,4, 6, 9, 11, 15
 

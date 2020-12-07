@@ -52,11 +52,11 @@
 + 7/12: 
  + Pràctica: Prac 4: Enumeratius
 + 14/12: 
-  + Contingut en línia (Santi): [Enumeratius I]   
+  + Contingut en línia (Santi): [Enumeratius I]  Backtracking  (https://ssegui.github.io/algo2/classes/backtracking.html)
   + Pràctica: Prac 4: Enumeratius
   + Classe presencial: Problemes Enumeratius: Cartas; Knapsack
 + 21/12: 
-  + Contingut en línia (Santi): [Enumeratius II] 
+  + Contingut en línia (Santi): [Enumeratius II] Branch and Bound
   + Pràctica: Prac 4: Enumeratius
   + Classe presencial: Problemes Enumeratius: Orden de ensamblaje
 

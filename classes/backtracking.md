@@ -97,6 +97,12 @@ print(knapsack())
  </center>
 
 
+
+### Esquema general d'un algoritme de backtracking
+A continuació podem veure l'esquema general d'un algorítme de backtracking:
+
+![mapa](images/backscheme.png)
+
 ### Exercici: Pinta el mapa
 Donat el següent mapa:
 
@@ -105,3 +111,4 @@ Donat el següent mapa:
 
 
 es demana trobar un algoritme que ens doni totes les possibles solucions que tenim si volem pintar el mapa utilitzant únicament 3 colors.
+

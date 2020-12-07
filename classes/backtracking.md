@@ -96,12 +96,14 @@ print(knapsack())
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zq4upTEaQyM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  </center>
 
-
+---
 
 ### Esquema general d'un algoritme de backtracking
 A continuació podem veure l'esquema general d'un algorítme de backtracking:
 
 ![mapa](images/backscheme.png)
+
+---
 
 ### Exercici: Pinta el mapa
 Donat el següent mapa:

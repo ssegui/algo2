@@ -101,7 +101,7 @@ print(knapsack())
 Donat el següent mapa:
 
 
-![mapa](https://github.com/ssegui/algo2/blob/main/classes/images/mapa.png)
+![mapa](images/mapa.png)
 
 
 es demana trobar un algoritme que ens doni totes les possibles solucions que tenim si volem pintar el mapa utilitzant únicament 3 colors.

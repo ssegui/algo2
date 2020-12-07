@@ -92,11 +92,9 @@ print(knapsack())
 
 ### Vídeo Sudoku via Backtracking
 
-
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Zq4upTEaQyM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
- 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zq4upTEaQyM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </center>
 
 
 ### Exercici: Pinta el mapa

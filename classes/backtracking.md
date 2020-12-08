@@ -1,12 +1,12 @@
 
 # Sessió en línia del dia 7/12/2020: Enumeratius / Backtracking
 
-Un algoritme enumeratiu és aquell que garanteix l'obtenció de la millor solució, l'òptim, per la via d'explorar tot l'espai de les solucions possibles. La sortida del mètode consisteix en totes en enumerar totes les solucions òptimes.
+Un algoritme enumeratiu és aquell que garanteix l'obtenció de la millor solució, l'òptim, per la via d'explorar tot l'espai de les solucions possibles. La sortida del mètode consisteix en enumerar totes les solucions òptimes.
 
 Tenim diverses tècniques per tal de trobar aquestes solucions:
 
-* **El backtraking**: Podem dir que el backtracking és una tècnica algorítmica per resoldre problemes recursivament, intentant construir una solució de manera incremental, eliminant totes aquelles solucions parcial, (retrocedint/backtrack) qque no compleixen les limitacions del problema, tan aviat com es determina que la solució no es pot completar com a solució vàlida.  Malauradament, un algorisme de backtracking pot passar molt de temps explorant parts de l’espai de possibles resultats que no donen lloc a una solució òptima.
 
+* **El backtraking**: El backtracking és una tècnica algorítmica que ens permet resoldre problemes de forma recursiva, intentant construir una solució de manera incremental, eliminant totes aquelles solucions parcial, (retrocedint/backtrack) que no compleixen les limitacions del problema, tan aviat com es determina que la solució no es pot completar com a solució vàlida/òptima.  Malauradament, un algorisme de backtracking pot passar molt de temps explorant parts de l’espai de possibles solucions que no donen lloc a una solució vàlida i/o òptima.
 
 * **Ramificació i poda (Branch and Bound)**: Un procediment enumeratiu basant en ramificació i poda requereix definir una funció d'avaluació per a cada node, per així seleccionar en cada pas quin és el millor node a explorar, i per altra banda eliminar certs nodes a ser explorats (aquells que no arribaran a la solució òptima). L'eficiència del mètode anirà fortament lligat a la funció que avalua cada node.
 
@@ -14,7 +14,7 @@ Tenim diverses tècniques per tal de trobar aquestes solucions:
 --- 
 ## Backtracking
 
-Pensem amb el problema de la motxilla.
+Pensem amb el problema de la motxilla mitjançant la tècnica del backtracking.
 
 ![knapsack](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Knapsack.svg/2560px-Knapsack.svg.png)
 
@@ -38,7 +38,7 @@ Amb la força bruta hauríem d'explorar totes les possibles solucions i avaluar-
 ![Brute force](https://media.geeksforgeeks.org/wp-content/uploads/knapsack1.jpg)
 
 
-Podem optimitzar la solució aconseguida mitjançant el Backtracking. Podem utilitzar el DFS per tal d'explorar l'arbre de solucions. Si arribem on la solució ja no és factible, no cal continuar explorant. En l'exemple donat, el retrocés seria molt més eficaç si tinguéssim encara més articles o una capacitat de motxilla menor.
+Podem optimitzar la solució aconseguida mitjançant el Backtracking. Com hem dit abans, el backtracking és una estratègia recursiva que crearà la solició de forma incremental explorant totes les possibles solucions però descartant aquelles que no puguin arribar a una solució òptima donat unes restriccións i objectiu definit. En el cas del problema de la motxila, podem utilitzar el DFS per tal d'explorar l'arbre de solucions. Si arribem a una solució parcial on la solució ja no és factible, no cal continuar explorant. En l'exemple donat, el retrocés seria molt més eficaç si tinguéssim encara més articles o una capacitat de motxilla menor.
 Pensem primer una solució amb backtracking.
 
 Amb backtracking tenim tres punts importants:

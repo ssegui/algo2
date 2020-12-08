@@ -38,19 +38,20 @@ Amb la força bruta hauríem d'explorar totes les possibles solucions i avaluar-
 ![Brute force](https://media.geeksforgeeks.org/wp-content/uploads/knapsack1.jpg)
 
 
-Podem optimitzar la solució aconseguida mitjançant el Backtracking. Com hem dit abans, el backtracking és una estratègia recursiva que crearà la solició de forma incremental explorant totes les possibles solucions però descartant aquelles que no puguin arribar a una solució òptima donat unes restriccións i objectiu definit. En el cas del problema de la motxila, podem utilitzar el DFS per tal d'explorar l'arbre de solucions. Si arribem a una solució parcial on la solució ja no és factible, no cal continuar explorant. En l'exemple donat, el retrocés seria molt més eficaç si tinguéssim encara més articles o una capacitat de motxilla menor.
-Pensem primer una solució amb backtracking.
+Podem optimitzar la solució aconseguida mitjançant el Backtracking. Com hem dit abans, el backtracking és una estratègia recursiva que crearà la solució de forma incremental explorant totes les possibles solucions del problema, però descartant aquelles que no puguin arribar a una solució òptima donat unes restriccions i objectiu definit. En el cas del problema de la motxilla, podem utilitzar el DFS per tal d'explorar l'arbre de solucions. Si arribem a una solució parcial on la solució ja no és factible, no caldrà continuar explorant. En aquest problema, com més gran és el nombre d'articles o menor la capacitat de la motxilla, més gran és la millora experimentada per l'algoritme basat en backtracking.
+Pensem dons una solució amb backtracking.
 
 Amb backtracking tenim tres punts importants:
-* Les eleccions
-* Les restriccions 
-* L'objectiu
+* Les eleccions.
+* Les restriccions.
+* L'objectiu.
 
 En el cas del problema de la motxilla. Ens queda d'aquesta manera:
-* Les eleccions: Incloure o no incloure l'objecte
-* Les restriccions: No pot superar un cert pes
-* L'objectiu: Els objectes seleccionats han de tenir el màxim valor
+* Les eleccions: Incloure o no incloure l'objecte.
+* Les restriccions: No pot superar un cert pes.
+* L'objectiu: Els objectes seleccionats han de tenir el màxim valor.
 
+A la següent imatge podem veure l'arbre de solucions que exploraríem, aquells nodes marcats de color vermell indiquen nodes on la solució no és factible i per tant es para d'explorar.
 ![backtracking](https://media.geeksforgeeks.org/wp-content/uploads/knapsack2.jpg)
 
 A continuació podem veure el codi python pel problema de la motxilla mitjançant backtracking:

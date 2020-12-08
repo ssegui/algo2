@@ -104,7 +104,7 @@ A continuació podem veure l'esquema general d'un algorítme de backtracking:
 
 ![mapa](images/backscheme.png)
 
-Així com ilustra l'imatge, els algorítmes de backtracking tenen 3 parts importants: 1) comprovar si hem arribart  a una solució vàlida; 2) Si la solució és vàlida **explorar**; 3) si la solució no és vàlida **parar l'explorarció**. 
+Així com ilustra l'imatge, els algorítmes de backtracking tenen 3 parts importants: 1) comprovar si hem arribart  a una solució vàlida; 2) Si la solució és vàlida **explorar**; 3) si la solució no és vàlida **parar l'exploració**. 
 
 ---
 

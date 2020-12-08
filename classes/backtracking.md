@@ -116,3 +116,7 @@ Donat el següent mapa:
 
 
 Es demana trobar un algoritme que ens doni totes les possibles solucions existents si volem pintar el mapa utilitzant únicament 3 colors (blau, verd, vermell) amb la restricció que dues regions que comparteixen frontera no poden compartir el mateix color.
+
+### Exercici: Collecting Beepers
+
+https://open.kattis.com/problems/beepers

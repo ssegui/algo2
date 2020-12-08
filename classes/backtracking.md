@@ -115,5 +115,4 @@ Donat el següent mapa:
 ![mapa](images/mapa.png)
 
 
-es demana trobar un algoritme que ens doni totes les possibles solucions que tenim si volem pintar el mapa utilitzant únicament 3 colors.
-
+Es demana trobar un algoritme que ens doni totes les possibles solucions existents si volem pintar el mapa utilitzant únicament 3 colors (blau, verd, vermell) amb la restricció que dues regions que comparteixen frontera no poden compartir el mateix color.

@@ -19,7 +19,7 @@ la solució d'aquest problema mitjançant un algoritme de ramificació i poda.
 Ho podem fer millor (que amb el backtracking) si coneixem una cota que ens indica quina és la millor possible solució que trobarem en subarbre de cada node del graf. Si la cota d'un node en questió és menor que una solució ja trobada, podem ignorar (podar) aquest node i tots els seus subarbre. Per tant, l'estratègia consisteix a calcular la cota superior (millor solució) per a cada node i comparem aquesta cota amb la millor solució trobada fins aleshores abans d'explorar el node.
 
 Donat els següents objectes i una capacitat màxima de 15 Kg:
-![mapa](https://github.com/ssegui/algo2/blob/main/classes/images/knapsack1.png)
+![mapa](images/knapsack1.png)
 
 Veiem pas a pas com podem fer-ho.
 
@@ -31,7 +31,7 @@ A continuació podem començar:
 
 * Primer pas: Trobem la cota inferior mitjançant una solució qualsevol. Com hem dit abans aquesta tindrà un valor de 8$. 
   
-![mapa](https://github.com/ssegui/algo2/blob/main/classes/images/knapsack_bb_1.png)
+![mapa](images/knapsack_bb_1.png)
  
  
 Segon pas: Agafem un primer objecte, en aquest cas l'objecte de color verd amb un valor de $4 i pes de 12kg. Calculem la cota superior i inferior de les dues opcions (agafar i no agafar l'objecte).
@@ -68,11 +68,11 @@ Trobeu la solució del problema mitjançant un algoritme de ramificació i poda.
 ## Exercici:  Puzzle 8
 Donat un taulell de 3x3 amb 8 números i un espai buit. L’objectiu és col·locar els números a les cel·les perquè coincideixin amb la configuració final mitjançant l’espai buit. Podem lliscar les cel·les adjacents (dreta, esquerra, amunt i avall) de l’espai buit.
 Exemple: 
-![mapa](https://github.com/ssegui/algo2/blob/main/classes/images/8puzzle.png)
+![mapa](images/8puzzle.png)
 
 Solució amb força bruta: Podem fer una cerca utilitzant el mètode DFS (Mirem de totes les configuracions d'un problema determinat, és a dir, tots els estats als quals es pot accedir des de l'estat inicial).
 
-![mapa](https://github.com/ssegui/algo2/blob/main/classes/images/8puzzle2.png)
+![mapa](images/8puzzle2.png)
 Aquesta solució té un problema donat que els moviments successius ens poden allunyar de l'objectiu en lloc d'apropar-nos. Pot ser que no es trobi mai una solució amb aquest enfocament.
 
 ### Solució amb ramificació i poda:
@@ -86,7 +86,7 @@ La funció de cost la podem definir de la següent manera:
 
 
 Exemple:
-![mapa](https://github.com/ssegui/algo2/blob/main/classes/images/8puzzle3.png)
+![mapa](images/8puzzle3.png)
 
 Implementeu l'algorítme de ramificació i poda.
 

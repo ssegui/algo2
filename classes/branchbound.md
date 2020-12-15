@@ -12,7 +12,7 @@ En problemes de **minimització**, la cota inferior ens indica la solució míni
 
 ---
 
-## Exercici: Problema de la motxilla
+## Exercici: Problema de la motxilla 
 La setmana passada vam veure com podíem resoldre el problema de la motxilla mitjançant un algoritme de backtracking. Aquesta setmana veiem com podem encara millorar
 la solució d'aquest problema mitjançant un algoritme de ramificació i poda.
 

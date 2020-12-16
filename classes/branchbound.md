@@ -27,8 +27,8 @@ function branch_and_Bound():
         for each child i of node k
             if(upper bound of child i is worse than bestval):
                   kill child i
-            elseif(child i is a complete solution):
-                  bestval = upperbound from child i
+            elif(child i is a complete solution):
+                  bestval = solution from child i
             else:
                   add child i to activeset
               

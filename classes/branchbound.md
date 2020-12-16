@@ -7,8 +7,9 @@ L'objectiu de la ramificació i poda consisteix amb reduïr l'espai de cerca, ex
 Un dels punts principals dels algoritmes de ramificació i poda és trobar i definir una funció que determinarà la cota inferior i/o superior al problema optimització que volem resoldre. Un cop definida la aquesta funció s'explora el node més prometedor en cada etapa i es rebutgen (poda) totes aquelles solucions quan la cota és inferior (superior en cas d'un problema de maximització) a una solució ja trobada o bé a la cota inferior (superior en cas d'un problema de maximització) d'un altre node.
 
 Per a les cotes hem de guardar informació dels estats no explorats per retomar-les en el procés d'exploració. 
-En problemes de **maximització**, la cota superior ens indica la solució màxima possible si seguim el node donat. 
-En problemes de **minimització**, la cota inferior ens indica la solució mínima si seguim el node donat.
+
+* En problemes de **maximització**, la cota superior ens indica la solució màxima possible si seguim el node donat. 
+* En problemes de **minimització**, la cota inferior ens indica la solució mínima si seguim el node donat.
 
 ---
 

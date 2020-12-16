@@ -8,7 +8,7 @@ Un dels punts principals dels algoritmes de ramificació i poda és trobar i def
 
 Que ens dieuen les cotes:
 *  La cota superior ens indica la solució màxima que podriem (no assegura) arribar a trobar si seguim el node donat. 
-*  La cota inferior ens indica la solució mínim que podriem (no assegura) arribar a trobar si seguim el node donat. 
+*  La cota inferior ens indica la solució mínima que podriem (no assegura) arribar a trobar si seguim el node donat. 
 
 * En problemes de **maximització**, ens interessa explorar tots aquells nodes on la seva cota superior sigui més gran que la millor solució trobada fins el moment
 * En problemes de **minimització**, ens interessa explorar tots aquells nodes on la seva cota inferior sigui més petita que la millor solució trobada fins el moment
@@ -74,9 +74,9 @@ A continuació podem començar:
 
 * Tercer pas: Decidim el següent node a explorar tenint en compte la cota inferior i/o la cota superior de tots els nodes actius. En el nostre cas tenim 2 nodes actius. Explorem el node corresponent a no agafar l'objecte verd, ja que aquest node té una cota superior més gran.
 
-* Quart pas: Explorem el node seleccionat i avaluem la cota de inferior i superior dels seus fills. Afegim a la llista de nodes actius els fills que tinguin una cota superior a la solució actual. En cas contrari, no afegim el node i per tant estem podant l'arbre de solucions.
+* Quart pas: Explorem el node seleccionat i avaluem la cota inferior i superior dels seus fills. Afegim a la llista de nodes actius els fills que tinguin una cota superior a la solució actual. En cas contrari, no afegim el node i per tant estem podant l'arbre de solucions.
 
-* Quint pas : continuem iterant fins que tinguem nodes actius a explorar.
+* Quint pas: continuem iterant fins que tinguem nodes actius a explorar.
 
 **Podem utilizar la cota inferior per podar més l'arbre?**
 

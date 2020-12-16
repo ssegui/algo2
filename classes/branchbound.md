@@ -104,7 +104,7 @@ Exemple:
 ---
 
 ## Exercici:  Puzzle 8
-Donat un taulell de 3x3 amb 8 números i un espai buit. L’objectiu és col·locar els números a les cel·les perquè coincideixin amb la configuració final mitjançant l’espai buit. Podem lliscar les cel·les adjacents (dreta, esquerra, amunt i avall) de l’espai buit.
+Donat un taulell de 3x3 amb 8 números i un espai buit. L’objectiu és col·locar els números a les cel·les perquè coincideixin amb la configuració final. Podem lliscar les cel·les adjacents (dreta, esquerra, amunt i avall) a l’espai buit. 
 Exemple: 
 ![mapa](images/8puzzle.png)
 

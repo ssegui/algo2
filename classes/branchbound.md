@@ -62,7 +62,7 @@ A continuació podem començar:
 ![mapa](images/knapsack_bb_1.png)
  
  
-Segon pas: Agafem un primer objecte, en aquest cas l'objecte de color verd amb un valor de $4 i pes de 12kg. Calculem la cota superior i inferior de les dues opcions (agafar i no agafar l'objecte).
+* Segon pas: Agafem un primer objecte, en aquest cas l'objecte de color verd amb un valor de $4 i pes de 12kg. Calculem la cota superior i inferior de les dues opcions (agafar i no agafar l'objecte).
     * La cota superior ens dóna el màxim resultat que podríem arribar a obtenir si considerem agafar aquest objecte.
         * Si agafem l'objecte verd:
             * **Cota superior**: 4$ + el valor de la resta d'objectes que **individualment** càpiguen dins la motxilla (4+2+2+1). Com podem veure, l'objecte groc no es considerat ja que la capacitat restant de la motxilla és 3kg i l'objecte groc pesa 4 kg. Cota Superior: 13$

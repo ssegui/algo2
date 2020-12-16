@@ -63,13 +63,13 @@ A continuació podem començar:
  
  
 * Segon pas: Considerem un primer objecte, en aquest cas l'objecte de color verd amb un valor de $4 i pes de 12kg. Calculem la cota superior i inferior de les dues opcions (agafar i no agafar l'objecte) i en cas que la seva cota superior sigui millor que el millor resultat obtingut fins alehores afegim el fill a la llista de nodes a explorar.
-        * Si agafem l'objecte verd:
-            * **Cota superior**: 4$ + el valor de la resta d'objectes que **individualment** càpiguen dins la motxilla (4+2+2+1). Com podem veure, l'objecte groc no es considerat ja que la capacitat restant de la motxilla és 3kg i l'objecte groc pesa 4 kg. Cota Superior: 9$
-            * **Cota inferior**: 4$ + el valor dels objectes següents fins arribar a la capacitat màxima. Cota Inferior: 4 + 2 + 1 = 7$
-        * Si NO agafem l'objecte verd:
-            * **Cota superior**: El valor de la resta d'objectes que **individualment** càpiguen dins la motxilla (2+10+2+1). Cota Superior: 15$
-            * **Cota inferior**: El valor dels objectes següents fins arribar a la capacitat màxima. Cota Inferior: 2 + 10 +2 +1 = 15$
-    * Afegim les dues opcions dins la llista de nodes a explorar ja que la seva cota màxima és superior a la millor solució actual. 
+    * Si agafem l'objecte verd:
+        * **Cota superior**: 4$ + el valor de la resta d'objectes que **individualment** càpiguen dins la motxilla (4+2+2+1). Com podem veure, l'objecte groc no es considerat ja que la capacitat restant de la motxilla és 3kg i l'objecte groc pesa 4 kg. Cota Superior: 9$
+        * **Cota inferior**: 4$ + el valor dels objectes següents fins arribar a la capacitat màxima. Cota Inferior: 4 + 2 + 1 = 7$
+    * Si NO agafem l'objecte verd:
+        * **Cota superior**: El valor de la resta d'objectes que **individualment** càpiguen dins la motxilla (2+10+2+1). Cota Superior: 15$
+        * **Cota inferior**: El valor dels objectes següents fins arribar a la capacitat màxima. Cota Inferior: 2 + 10 +2 +1 = 15$
+* Afegim les dues opcions dins la llista de nodes a explorar ja que la seva cota màxima és superior a la millor solució actual. 
 
 
 * Tercer pas: Decidim el següent node a explorar tenint en compte la cota inferior i/o la cota superior de tots els nodes actius. En el nostre cas tenim 2 nodes actius. Explorem el node corresponent a no agafar l'objecte verd, ja que aquest node té una cota superior més gran.

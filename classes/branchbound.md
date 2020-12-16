@@ -37,10 +37,10 @@ function branch_and_Bound():
 ---
 
 ## Exercici: Problema de la motxilla 
-La setmana passada vam veure com podíem resoldre el problema de la motxilla mitjançant un algoritme de backtracking. Aquesta setmana veiem com podem encara millorar
-la solució d'aquest problema mitjançant un algoritme de ramificació i poda.
 
-Ho podem fer millor (que amb el backtracking) si coneixem una cota que ens indica quina és la millor possible solució que trobarem en subarbre de cada node del graf. Si la cota d'un node en questió és menor que una solució ja trobada, podem ignorar (podar) aquest node i tots els seus subarbre. Per tant, l'estratègia consisteix a calcular la cota superior (millor solució) per a cada node i comparem aquesta cota amb la millor solució trobada fins aleshores abans d'explorar el node.
+La setmana passada vam veure com podíem resoldre el problema de la motxilla mitjançant un algoritme de backtracking. Aquesta setmana veiem com encara podem millorar la solució d'aquest problema mitjançant un algoritme de ramificació i poda.
+
+La idea principal recau en el fet que ho podem fer millor (que amb el backtracking) si coneixem una cota que ens indica quina és la millor possible solució que trobarem en subarbre de cada node del graf. Si la cota d'un node en questió és menor que una solució ja trobada, podem ignorar (podar) aquest node i tots els seus subarbre. Per tant, l'estratègia consisteix a calcular la cota superior (millor solució) per a cada node i comparem aquesta cota amb la millor solució trobada fins aleshores abans d'explorar el node.
 
 Donat els següents objectes i una capacitat màxima de 15 Kg:
 ![mapa](images/knapsack1.png)
@@ -48,8 +48,11 @@ Donat els següents objectes i una capacitat màxima de 15 Kg:
 Veiem pas a pas com podem fer-ho.
 
 El primer que hem de fer és definir com calcularem la cota inferior i la cota superior. Les podem calcular de la següent manera:
+
 * **Cota superior**: Agafem tots els objectes que **individualment** càpiguen dins la motxilla. En el nostre cas, donat que la motxilla té una capacitat màxima de 15kg, podrem considerar tots els objectes que individualment pesin menys de 15kg. Per tant, en el nostre exemple, la cota superior inicial equival a 4+2+10+2+1 = 17$.
+
 * **Cota inferior**: Agafem els primers objectes de la llista fins a arribar a la capacitat màxima de la motxilla. En el nostre exemple, la cota inferior inicial equival a 4+2+2 = 8$.
+
 
 A continuació podem començar:
 

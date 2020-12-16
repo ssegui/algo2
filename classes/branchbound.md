@@ -45,18 +45,19 @@ La idea principal recau en el fet que ho podem fer millor (que amb el backtracki
 Donat els següents objectes i una capacitat màxima de 15 Kg:
 ![mapa](images/knapsack1.png)
 
+Els objectes estan ordenats amb el següent ordre: [verd, blau, vermell, groc, gris]
 Veiem pas a pas com podem fer-ho.
 
 El primer que hem de fer és definir com calcularem la cota inferior i la cota superior. Les podem calcular de la següent manera:
 
-* **Cota superior**: Agafem tots els objectes que **individualment** càpiguen dins la motxilla. En el nostre cas, donat que la motxilla té una capacitat màxima de 15kg, podrem considerar tots els objectes que individualment pesin menys de 15kg. Per tant, en el nostre exemple, la cota superior inicial equival a 4+2+10+2+1 = 17$.
+* **Cota superior**: Agafem tots els objectes que **individualment** càpiguen dins la motxilla. En el nostre cas, donat que la motxilla té una capacitat màxima de 15kg, podrem considerar tots els objectes que individualment pesin menys de 15kg. Per tant, en el nostre exemple, la cota superior inicial equival a 4+2+1+10+2 = 19$.
 
-* **Cota inferior**: Agafem els primers objectes de la llista fins a arribar a la capacitat màxima de la motxilla. En el nostre exemple, la cota inferior inicial equival a 4+2+2 = 8$.
+* **Cota inferior**: Agafem els primers objectes de la llista fins a arribar a la capacitat màxima de la motxilla. En el nostre exemple, la cota inferior inicial equival a 4+2+1 = 7$.
 
 
 A continuació podem començar:
 
-* Primer pas: Trobem la cota inferior mitjançant una solució qualsevol. Com hem dit abans aquesta tindrà un valor de 8$. 
+* Primer pas: Trobem la cota inferior mitjançant una solució qualsevol. Com hem dit abans aquesta tindrà un valor de 7$. 
   
 ![mapa](images/knapsack_bb_1.png)
  

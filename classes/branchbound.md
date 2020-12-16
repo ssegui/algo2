@@ -62,21 +62,24 @@ A continuació podem començar:
 ![mapa](images/knapsack_bb_1.png)
  
  
-* Segon pas: Agafem un primer objecte, en aquest cas l'objecte de color verd amb un valor de $4 i pes de 12kg. Calculem la cota superior i inferior de les dues opcions (agafar i no agafar l'objecte).
-    * La cota superior ens dóna el màxim resultat que podríem arribar a obtenir si considerem agafar aquest objecte.
+* Segon pas: Considerem un primer objecte, en aquest cas l'objecte de color verd amb un valor de $4 i pes de 12kg. Calculem la cota superior i inferior de les dues opcions (agafar i no agafar l'objecte) i en cas que la seva cota superior sigui millor que el millor resultat obtingut fins alehores afegim el fill a la llista de nodes a explorar.
         * Si agafem l'objecte verd:
-            * **Cota superior**: 4$ + el valor de la resta d'objectes que **individualment** càpiguen dins la motxilla (4+2+2+1). Com podem veure, l'objecte groc no es considerat ja que la capacitat restant de la motxilla és 3kg i l'objecte groc pesa 4 kg. Cota Superior: 13$
-            * **Cota inferior**: 4$ + el valor dels objectes següents fins arribar a la capacitat màxima. Cota Inferior: 4 + 2 +2 = 8$
+            * **Cota superior**: 4$ + el valor de la resta d'objectes que **individualment** càpiguen dins la motxilla (4+2+2+1). Com podem veure, l'objecte groc no es considerat ja que la capacitat restant de la motxilla és 3kg i l'objecte groc pesa 4 kg. Cota Superior: 9$
+            * **Cota inferior**: 4$ + el valor dels objectes següents fins arribar a la capacitat màxima. Cota Inferior: 4 + 2 + 1 = 7$
         * Si NO agafem l'objecte verd:
             * **Cota superior**: El valor de la resta d'objectes que **individualment** càpiguen dins la motxilla (2+10+2+1). Cota Superior: 15$
             * **Cota inferior**: El valor dels objectes següents fins arribar a la capacitat màxima. Cota Inferior: 2 + 10 +2 +1 = 15$
+    * Afegim les dues opcions dins la llista de nodes a explorar ja que la seva cota màxima és superior a la millor solució actual. 
 
 
+* Tercer pas: Decidim el següent node a explorar tenint en compte la cota inferior i/o la cota superior de tots els nodes actius. En el nostre cas tenim 2 nodes actius. Explorem el node corresponent a no agafar l'objecte verd, ja que aquest node té una cota superior més gran.
 
-* Tercer pas: Decidim quin node explorar tenint en compte la cota inferior i la cota superior de tots els nodes actius. En el nostre cas només tenim 2 nodes actius. En aquest cas explorarem el node corresponent a no agafar l'objecte verd, ja que la seva cota inferior supera la cota superior de l'altre node.
+* Quart pas: Explorem el node seleccionat i avaluem la cota de inferior i superior dels seus fills. Afegim a la llista de nodes actius els fills que tinguin una cota superior a la solució actual. En cas contrari, no afegim el node i per tant estem podant l'arbre de solucions.
 
-* Quart pas: Explorem el node seleccionat i avaluem la cota de inferior i superior dels seus fills. Si la cota superior dels fills és superior a la cota inferior actual, els afegim a la llista de nodes actius. En cas contrari, no afegim el node i per tant podem l'arbre de solucions.
-* Quint pas: continuem fins a trobar la solució òptima.
+* Quint pas : continuem iterant fins que tinguem nodes actius a explorar.
+
+** Podem utilizar la cota inferior per podar més l'arbre?
+
 ---
 
 ## Exercici: Assignació de tasques:

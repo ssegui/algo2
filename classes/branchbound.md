@@ -40,7 +40,7 @@ function branch_and_Bound():
 
 La setmana passada vam veure com podíem resoldre el problema de la motxilla mitjançant un algoritme de backtracking. Aquesta setmana veiem com encara podem millorar la solució d'aquest problema mitjançant un algoritme de ramificació i poda.
 
-La idea principal recau en el fet que ho podem fer millor (que amb el backtracking) si coneixem una cota que ens indica quina és la millor solució que podriem arribar a trobar si explorem una cada un dels node del graf. Si la cota d'un node en questió és menor que una solució ja trobada, podem ignorar (podar) aquest node i tots els seus subarbres. Per tant, l'estratègia consisteix a calcular la cota superior (millor solució) per a cada node i comparem aquesta cota amb la millor solució trobada fins aleshores abans d'explorar el node.
+La idea principal recau en el fet que ho podem fer millor (que amb el backtracking) si coneixem una cota que ens indica quina és la millor solució que podriem arribar a trobar si explorem el subarbre d'un node donat. Aquesta informació és ajudarà a decidir el següent node a explorar i parar-nos si ja no tenim cap possiblitat de trobar una solució millor. Si la cota d'un node en questió és menor que una solució ja trobada, podrem ignorar (podar) aquest node i tots els seus subarbres. Per tant, l'estratègia consisteix a calcular la cota superior (millor solució) per a cada node i comparem aquesta cota amb la millor solució trobada fins aleshores abans d'explorar el node.
 
 Donat els següents objectes i una capacitat màxima de 15 Kg:
 ![mapa](images/knapsack1.png)

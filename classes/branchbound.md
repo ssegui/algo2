@@ -83,7 +83,7 @@ A continuació podem començar:
 ---
 
 ## Exercici: Assignació de tasques:
-Tenim 4 tasques i 4 empreses disponibles. Cada empresa ens ha ofert una solució a cada una de les tasques amb un cost X. Volem assignar una única tasca diferent a cada empresa tal que el cost total sigui el mínim. El cost de les tasques per a cada una de les empreses ve definit segons la següent taula:
+Tenim 4 tasques i 4 empreses disponibles que poden realitzar-les. Cada empresa ens ha ofert una solució a cada una de les tasques amb un cost X. Volem assignar una única tasca diferent a cada empresa tal que el cost total sigui el mínim. El cost de les tasques per a cada una de les empreses està definit segons la següent taula:
 
 |           | Tasca A | Tasca B | Tasca C | Tasca D |
 |-----------|---------|---------|---------|---------|
@@ -93,6 +93,13 @@ Tenim 4 tasques i 4 empreses disponibles. Cada empresa ens ha ofert una solució
 | Empresa 4 | 17      | 14      | 20      | 28      |
 
 Trobeu la solució del problema mitjançant un algoritme de ramificació i poda.
+
+Exemple: 
+* Empresa 1 - > tasca A
+* Empresa 2 - > tasca B
+* Empresa 3 - > tasca C
+* Empresa 4 - > tasca D
+* Cost total : 11+15+19+28 = 73
 
 ---
 

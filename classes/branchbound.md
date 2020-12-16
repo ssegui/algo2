@@ -1,15 +1,18 @@
 # Sessió en línia del dia 20/12/2020: Enumeratius / Ramificació i Poda
 
-Els algoritmes de ramificació i poda (*branch and bound* en angles) implementen l'algoritme de backtracking, però no a la inversa. Els podem veure com una variant millorada del backtracking aplicada majoritariament a problemes optimiació combinatoria o matemàtica.
+Els algoritmes de ramificació i poda (*branch and bound* en angles) implementen l'algoritme de backtracking, però no a la inversa. Els podem veure com una variant millorada del backtracking aplicada majoritariament a problemes optimització combinatoria o matemàtica.
 
 L'objectiu de la ramificació i poda consisteix amb reduïr l'espai de cerca, explorant primer aquelles solucions més prometedores i descartant durant el procés totes aquelles solucions parcials que no puguin produir una millor solució de l'obtinguda fins aleshores. Per a realizar això, s'introdueixen unes cotes que ens ajudaran a escollir la solució a explorar i rebjutar-ne d'altres. A diferència del backtracking, aquí no limitem l'exploració del graf a cap algoritme en particular. L'exploració del graf anirà regida en funció de les cotes obtingudes.
 
-Un dels punts principals dels algoritmes de ramificació i poda és trobar i definir una funció que determinarà la cota inferior i/o superior al problema optimització que volem resoldre. Un cop definida aquesta funció s'explora el node més prometedor en cada etapa i es rebutja (poda) l'exploració de tots aquells nodes quan la cota superior és menor (o bé la cota inferior és major en cas d'un problema de minimització) a una solució ja trobada o bé a la cota inferior d'un altre node.
+Un dels punts principals dels algoritmes de ramificació i poda és trobar i definir una funció que determinarà la cota inferior i/o superior al problema optimització que volem resoldre. Un cop definida aquesta funció s'explora el node més prometedor en cada etapa i es rebutja (poda) l'exploració de tots aquells nodes quan la cota superior és menor (o bé la cota inferior és major en cas d'un problema de minimització) a una solució ja trobada.
 
-* En problemes de **maximització**, la cota superior ens indica la solució màxima possible si seguim el node donat. 
-* En problemes de **minimització**, la cota inferior ens indica la solució mínima si seguim el node donat.
+Que ens dieuen les cotes:
+*  La cota superior ens indica la solució màxima que podriem (no assegura) arribar a trobar si seguim el node donat. 
+*  La cota inferior ens indica la solució mínim que podriem (no assegura) arribar a trobar si seguim el node donat. 
 
-Per a les cotes hem de guardar informació dels estats no explorats per retomar-les en el procés d'exploració. 
+* En problemes de **maximització**, ens interessa explorar tots aquells nodes on la seva cota superior sigui més gran que la millor solució trobada fins el moment
+* En problemes de **minimització**, ens interessa explorar tots aquells nodes on la seva cota inferior sigui més petita que la millor solució trobada fins el moment
+
 
 El pseudocodi d'un algoritme de ramficació i poda pot seguir el següent esquema:
 

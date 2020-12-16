@@ -14,19 +14,19 @@ Per a les cotes hem de guardar informació dels estats no explorats per retomar-
 El pseudocodi d'un algoritme de ramficació i poda pot seguir el següent esquema:
 
 ```python
-function branch_and_Bound()
+function branch_and_Bound():
   activeset = {}
   bestsolution = Null
-  while( activeset not empty)
+  while( activeset not empty):
       choose the most promising branching node k, node k  \in activeset
       remove the node k from activeset
       generate the children of node k and estimate the bounds
       for each child i of node k
-          if(upper bound of child i is worse than bestval
+          if(upper bound of child i is worse than bestval):
                 kill child i
-          elseif(child i is a complete solution)
+          elseif(child i is a complete solution):
                 bestval = upperbound from child i
-          else
+          else:
                 add child i to activeset
               
 ```

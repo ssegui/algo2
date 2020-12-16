@@ -1,10 +1,10 @@
 # Sessió en línia del dia 20/12/2020: Enumeratius / Ramificació i Poda
 
-Els algoritmes de ramificació i poda implementen l'algoritme de backtracking, però no a la inversa.
+Els algoritmes de ramificació i poda (*branch and bound* en angles) implementen l'algoritme de backtracking, però no a la inversa. Els podem veure com una variant millorada del backtracking aplicada majoritariament a problemes optimiació combinatoria o matemàtica.
 
-L'objectiu de ramificació i poda consisteix amb reduir l'espai de cerca, per això s'introdueixen cotes. Guardant informació sobre l'execució d'un algoritme podem fer ús d'aquestes cotes per ramificar i podar. A diferència del backtracking, aquí no limitem l'exploració del graf a cap algoritme en particular. L'exploració del graf anirà regida en funció de les cotes obtingudes.
+L'objectiu de la ramificació i poda consisteix amb reduir l'espai de cerca, explorant primer aquelles solucions més prometedores i descartant durant el procés totes aquelles solucions parcials que no puguin produir una millor solució de l'obtinguda fins aleshores. Per a realizar això, s'introdueixen unes cotes que ens ajudaran a escollir la solució a explorar i rebjutar-ne d'altres. A diferència del backtracking, aquí no limitem l'exploració del graf a cap algoritme en particular. L'exploració del graf anirà regida en funció de les cotes obtingudes.
 
-La idea principal dels algoritmes de ramificació i poda és trobar una funció que trobarà una cota inferior o superior al problema optimització que volem resoldre. S'explora el node més prometedor en cada etapa i es rebutgen (poda) aquelles solucions quan la cota és inferior a una solució ja trobada o bé a la cota inferior d'un altre node.
+Un dels punts principals dels algoritmes de ramificació i poda és trobar una funció que determinarà una cota inferior i/o superior al problema optimització que volem resoldre. S'explora el node més prometedor en cada etapa i es rebutgen (poda) aquelles solucions quan la cota és inferior a una solució ja trobada o bé a la cota inferior d'un altre node.
 
 Per a les cotes hem de guardar informació dels estats no explorats per retomar-les en el procés d'exploració. 
 En problemes de **maximització**, la cota superior ens indica la solució màxima possible si seguim el node donat. 

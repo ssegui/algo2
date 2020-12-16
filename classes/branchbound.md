@@ -78,7 +78,7 @@ A continuació podem començar:
 
 * Quint pas : continuem iterant fins que tinguem nodes actius a explorar.
 
-** Podem utilizar la cota inferior per podar més l'arbre?
+**Podem utilizar la cota inferior per podar més l'arbre?**
 
 ---
 

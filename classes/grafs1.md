@@ -16,6 +16,39 @@ Video de 14' amb una introducció als grafs i a la representació.
 </center>
 ---
 
+---
+### Exercici 0: RECAP Recorregut Grafs
+Donat el següent arbre:
+
+```python
+# Using a Python dictionary to act as an adjacency list
+graph = {
+    'A' : ['B','C'],
+    'B' : ['D', 'E'],
+    'C' : ['F'],
+    'D' : [],
+    'E' : ['G'],
+    'F' : ['H'],
+    'G' : [],
+    'H' : []
+}
+
+visited = set() # Set to keep track of visited nodes.
+
+def explore(visited, graph, node):
+    if node not in visited:
+        print (node)
+        visited.add(node)
+        for neighbour in graph[node]:
+            explore(visited, graph, neighbour)
+
+# Driver Code
+explore(visited, graph, 'A')
+```
+
+Quina es la sortida del codi anterior? Què fa?
+
+
 ### Vídeo: DFS
 
 Vídeo de 10' sobre l'algoritme DFS

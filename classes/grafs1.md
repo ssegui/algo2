@@ -46,7 +46,7 @@ def explore(visited, graph, node):
 explore(visited, graph, 'A')
 ```
 
-Quina es la sortida del codi anterior? Què fa?
+Quina és la sortida del codi anterior? Què fa?
 
 
 ### Vídeo: DFS
